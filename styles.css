@@ -1,0 +1,66 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Background section */
+.header-section {
+  height: 66vh;
+  background-image: url('/assets/mountain-black-white.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Header and Nav styles */
+header {
+  width: 100%;
+  margin-bottom: 60px; /* Space between header and h1 */
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 5rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black; /* White text for nav */
+  font-weight: bold;
+}
+
+h1 {
+  color: black; /* White text */
+  font-size: 3rem; /* Adjust size as needed */
+  font-weight: bold;
+}
+
+main {
+  padding: 1rem;
+  text-align: center;
+  height: 10rem;
+}
+
+.footer {
+  display:flex;
+  justify-content: center;
+}
+
+
+
