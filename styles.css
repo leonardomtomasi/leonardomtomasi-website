@@ -11,11 +11,26 @@ body, html {
   background-image: url('/assets/mountain-black-white.jpg');
   background-size: cover;
   background-position: center;
+}
+.header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 3rem;
+}
+.h1 {
+  padding: 6rem;
+}
+
+.portfolio {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.25rem;
 }
 
 /* Header and Nav styles */
@@ -29,6 +44,8 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.25rem;
 }
 
 nav ul li {
@@ -49,12 +66,16 @@ h1 {
   color: black; /* White text */
   font-size: 3rem; /* Adjust size as needed */
   font-weight: bold;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 main {
   padding: 1rem;
   text-align: center;
   height: 10rem;
+}
+span {
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .footer {
